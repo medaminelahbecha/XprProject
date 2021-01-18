@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import Header from "./header";
-import Menu from "./menu";
-import Footer from "./footer";
+import Header from "./components/menu/header";
+import Menu from "./components/menu/menu";
+import Footer from "./components/menu/footer";
 
 export default class App extends Component {
   render() {

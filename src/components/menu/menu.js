@@ -1,26 +1,20 @@
 import React, { Component } from "react";
+import "./menu.css";
 
 export default class menu extends Component {
   render() {
     return (
       <div className="side-menu-desktop">
         <aside
-          className="main-sidebar elevation-4 sidebar-light-lightblue "
-          style={{
-            borderRadius: "44px",
-            top: "130px",
-            position: "relative",
-            height: "600px",
-            left: "3px",
-            bottom: "200px",
-          }}
+          class="main-sidebar elevation-4 sidebar-light-lightblue "
+          style={{ position: "relative" }}
           data-widget="pushmenu"
         >
           <div className="sidebar">
             <div className="user-panel mt-3 pb-3 mb-3 d-flex">
               <div className="image">
                 <img
-                  src="/dist/img/user2-160x160.jpg"
+                  src="/template/img/user2-160x160.jpg"
                   className="img-circle elevation-2"
                   alt="User"
                 />

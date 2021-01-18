@@ -1,53 +1,39 @@
 import React, { Component } from "react";
+import "./menu.css";
 
 export default class header extends Component {
   render() {
     return (
       <div>
-        <header
-          className="navbar navbar-expand-lg navbar-light bg-light"
-          style={{
-            position: "absolute",
-            width: "1520px",
-            height: "50px",
-            left: "-5px",
-            top: "0px",
-          }}
-        >
+        <header className="navbar navbar-expand-lg navbar-light bg-light">
           <div class="collapse navbar-collapse">
             <a href="index3.html" className="brand-link">
-              <img
-                src="/dist/img/xpr1.png"
-                alt="AdminLTE Logo"
-                className="brand-image"
-                style={{
-                  width: "188px",
-                  height: "75px",
-                  left: "8px",
-                  top: "10px",
-                }}
-              />
+              <img className="brand" src="/template/img/xpr1.png" alt="XPR" />
             </a>
             <ul className="navbar-nav ml-auto">
               <li class="nav-item">
                 <a href="fakeUrl" class="nav-link">
                   <img
-                    src="/dist/img/plus.png"
+                    src="/template/img/plus.png"
                     class="rounded-circle"
-                    alt="User Image"
+                    alt="Plus"
                   />
-                  Ajouter Documents
+                  <b>Ajouter Documents</b>
                 </a>
               </li>
               <li
                 className="nav-item dropdown user user-menu"
                 style={{ top: "18px" }}
               >
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                <a
+                  href=" fake-url"
+                  class="dropdown-toggle"
+                  data-toggle="dropdown"
+                >
                   <img
-                    src="/dist/img/user2-160x160.jpg"
+                    src="/template/img/user2-160x160.jpg"
                     class="user-image"
-                    alt="User Image"
+                    alt="User"
                   />
                   <span>Mohamed Amine</span>
                 </a>
