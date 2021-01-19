@@ -1,17 +1,16 @@
-import React, { Component } from "react";
-import Header from "./components/menu/header";
-import Menu from "./components/menu/menu";
-import Footer from "./components/menu/footer";
+import React from "react";
+import { Router } from "react-router-dom";
 
-export default class App extends Component {
-  render() {
-    return (
-      <div>
-        <Header />
+import History from "./services/history";
+import Routes from "./routes/router";
 
-        <Menu />
-        <Footer />
-      </div>
-    );
-  }
+function App() {
+  return (
+    <div>
+      <Router history={History}>
+        <Routes />
+      </Router>
+    </div>
+  );
 }
+export default App;

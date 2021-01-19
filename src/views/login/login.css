@@ -1,0 +1,68 @@
+.card-body {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  max-width: 20cm;
+  min-height: 14cm;
+  border: 4px solid #1d3892;
+  margin-bottom: 2cm;
+}
+
+.connexion {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 60px;
+  text-align: center;
+
+  color: #202d59;
+}
+
+.email {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+  /* identical to box height */
+
+  letter-spacing: 0.01em;
+  margin-left: 3cm;
+
+  color: #0455a6;
+}
+.btn {
+  position: centre;
+  height: 40px;
+  margin-left: 7cm;
+  margin-right: 7cm;
+  top: 200px;
+  min-width: 5cm;
+
+  background: #0455a6;
+  box-shadow: 0px 0px 2px #a4a7b5;
+  border-radius: 20px;
+}
+.input-group .form-control:focus {
+  border: 1px solid #4a9dc3;
+  box-shadow: 0 0 0 0.2rem rgba(79, 96, 241, 0.25);
+}
+
+.input-group {
+  max-width: 12cm;
+  margin-left: 3cm;
+}
+.react-tel-input .form-control {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  letter-spacing: 0.01rem;
+  width: 12cm !important;
+  font-size: 0.9rem !important;
+  margin-right: 10cm !important;
+}
+
+.react-tel-input {
+  margin-top: 10px !important;
+  margin-right: 20px !important;
+}
